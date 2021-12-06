@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/loader.css">
+        
+        <title>Home | CV</title>
+    </head>
+    
+    <body class="bg-gray-900">
+        <div id="loader">
+            <img src="img/loader.png" alt="">
+        </div>
+        
+        <div id="cv" class="hidden">
+            <!-- Header & Nav Container-->
+            <header class="sticky top-0 border-b-2 p-5 bg-gray-900">
+                <div class="flex items-center justify-between max-w-screen-x1">
+                    <div class="flex items-center flex-shrink-0 mr-6">
+                        <span class="font-bold text-white text-xl">Freddy</span>
+                    </div>
+                    <div class="w-full items-center justify-end flex-shrink flex-grow sm:flex sm:items-center sm:w-auto border-l-2">
+                        <a href="#" class="line-through uppercase cursor-not-allowed inline-block text-white mt-4 sm:inline-block sm:mt-0 text-black p-1 ml-2 mr-2">Home</a>
+                        <a href="portfolio.html" class="inline-block text-white mt-4 sm:inline-block sm:mt-0 text-black p-1 ml-2 mr-2 hover:text-blue-500 hover:bg-gray-300">Portfolio</a>
+                        <a href="about.html" class="inline-block text-white mt-4 sm:inline-block sm:mt-0 text-black p-1 ml-2 mr-2 hover:text-blue-500 hover:bg-gray-300">About</a>
+                        <a href="contact.html" class="inline-block text-white mt-4 sm:inline-block sm:mt-0 text-black p-1 ml-2 mr-2 hover:text-blue-500 hover:bg-gray-300">Contact</a>
+                        <a href="extra.html" class="inline-block text-black mt-4 sm:inline-block sm:mt-0 text-black p-1 ml-2 mr-2  border-2 hover:text-gray-900 hover:bg-gray-300 hover:bg-teal-300 hover:border-transparent rounded px-3 bg-gray-300">Extra</a>
+                    </div>        
+                </div>
+            </header><br/>
+
+            <!--Custom Bread Crumb-->
+            <div class="sm:flex-wrap md:flex-wrap p-4">
+                <section class="inline-block max-w-5xl mx-auto border-b-2 p-2 m-2">
+                    <h3 class="text-white font-black m-3">explore My<br/>
+                        <span class="text-2xl sm:text-3xl mb-3 text-teal-200 font-black">digital </span><br/>
+                        <span class="text-4xl sm:text-5xl mb-3 text-gray-200 font-extrabold font-black">CV<span></h3><br/>
+                    </h3>
+                </section>
+            </div>
+
+            <!---Index-->
+            <div class=" w-full m:flex-wrap md:flex-wrap p-4">
+                <section class="inline-block w-full max-w-5xl m-auto p-2">
+                    <h3 class="inline-block text-white m-3">
+                        <span class="text-4xl sm:text-5xl text-gray-200 font-extrabold font-black">welcome</span></h3><br/>     
+                    </h3>
+                    <img src="img/logo.jpg" class="float-left sm:w-56 w-full mr-4">
+                    <p class="mr-3 clear-none sm:w-1/2 text-gray-300 leading-relaxed">Hi, i'm Freddy keitumetse Mahlakoane this here is My digital CV - the place where 
+                        you'll find everything you need to know about Me and what I can do</span><br/><br/>
+                        You can read more about who I am, what I'm currently busy with and what My dreams and aspirations are on the 
+                        <a href="" class="">About</a> page and more personal stuff on the <a href="" class="">Extra</a>'s page.<br/><br/>
+                        I created this website using the Tailwind CSS framework - it's a pretty nifty tool if you ask Me. If you'd like
+                        to find out more about it, click the button below.<br/><br/>
+                        <span class="inline-block text-gray-300 border-2 rounded p-3 hover:border-transparent hover:bg-gray-300 hover:text-gray-900">
+                            <a href="https://www.tailwindcss.com" class="">Learn Tailwind</a>
+                        </span>
+                    </p>
+                </section>
+            </div>
+
+            <div class="download-cv" onclick="getConfirmation();">
+                <div class="">
+                    <img src="img/dl.png" alt="" class="w-20">
+                </div>
+            </div>
+
+            <!-- Footer Container-->
+            <footer class="page-footer">
+                <span class="w-max-content">Brought to you by an AFRICAN KING &copy;</span>
+            </footer>
+        </div>
+
+        <!-- JS -->
+        <script type="text/javascript" src="js/animate.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <noscript>
+            Please enable Javascript to continue!
+        </noscript>
+    </body>
+</html>

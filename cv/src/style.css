@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-footer {
+    @apply bg-gray-100 p-5 mt-3;
+}
+
+.extra {
+    @apply bg-gray-800;
+}
+
+.download-cv {
+    @apply sticky bottom-0 float-right flex-shrink-0;
+}
+
+.skills-progress {
+    @apply border-2 p-1 mb-3;
+}
+
+.skill-section {
+    @apply block max-w-5xl mx-auto py-2;
+}

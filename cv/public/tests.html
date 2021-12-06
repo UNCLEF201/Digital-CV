@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/loader.css">
+        <link rel="stylesheet" href="css/canvas.css">
+        
+        <title>Home | CV</title>
+    </head>
+    
+    <body class="bg-gray-900">
+        <div id="loader">
+            <img src="img/loader.png" alt="">
+        </div>
+        
+        <div id="cv" class="hidden">
+           
+            <!--Custom Bread Crumb-->
+            <div class="sm:flex-wrap md:flex-wrap p-4">
+                <section class="inline-block max-w-5xl mx-auto border-b-2 p-2 m-2">
+                    <h3 class="text-white font-black m-3">explore My<br/>
+                        <span class="text-2xl sm:text-3xl mb-3 text-teal-200 font-black">landing </span><br/>
+                        <span class="text-4xl sm:text-5xl mb-3 text-gray-200 font-extrabold font-black">PAGE<span></h3><br/>
+                    </h3>
+                </section>
+            </div>
+
+            <!---Index-->
+            <div class="canvas w-max-content m:flex-wrap md:flex-wrap p-4">
+                <section class="inline-block max-w-5xl p-2">
+                    <canvas id="canvas" class="mb-4" height="300px"></canvas>
+                    <img src="img/logo.jpg" alt="" id="source">
+                    <span class="inline-block text-gray-300 border-2 rounded p-3 hover:border-transparent hover:bg-gray-300 hover:text-gray-900">
+                        <p onclick="stop();" class="">>> Get Started >></p>
+                    </span>
+                </section>
+                
+            </div>
+
+            <!-- Footer Container-->
+            <footer class="page-footer">
+                <span class="w-max-content">Brought to you by an African king &copy;</span>
+            </footer>
+        </div>
+        
+        <!-- JS -->
+        <script type="text/javascript" src="js/animate.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script src="js/canvas.js"></script>
+        <noscript>
+            Please enable Javascript to continue!
+        </noscript>
+    </body>
+</html>
